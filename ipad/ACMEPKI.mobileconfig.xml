@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><!--iPhone config created just for you! -->
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadContent</key>
+				<dict>
+					<key>Challenge</key>
+					<string>76D3469DF3FB00E4E989EA718F89C529</string>
+					<key>Key Type</key>
+					<string>RSA</string>
+					<key>Key Usage</key>
+					<integer>5</integer>
+					<key>Keysize</key>
+					<integer>2048</integer>
+					<key>Name</key>
+					<string>CA-DC01</string>
+					<key>Subject</key>
+					<array>
+						<array>
+							<array>
+								<string>O</string>
+								<string>ACME Corporation</string>
+							</array>
+						</array>
+						<array>
+							<array>
+								<string>OU</string>
+								<string>123</string>
+							</array>
+						</array>
+						<array>
+							<array>
+								<string>CN</string>
+								<string>IOS12312344321.corp.acme.local</string>
+							</array>
+						</array>
+					</array>
+					<key>URL</key>
+					<string>http://pki.gordonjyoung.com/certsrv/mscep/mscep.dll</string>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>Configures SCEP</string>
+				<key>PayloadDisplayName</key>
+				<string>SCEP (CA-DC01)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.goyoung.pki.util.scep.profile.scep1</string>
+				<key>PayloadOrganization</key>
+				<string>ACME</string>
+				<key>PayloadType</key>
+				<string>com.apple.security.scep</string>
+				<key>PayloadUUID</key>
+				<string>c04ccd15-87ab-43c6-8cb2-cd464279a80f</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>ACME PKI NDES Profile</string>
+		<key>PayloadDisplayName</key>
+		<string>SCEP_Payload </string>
+		<key>PayloadIdentifier</key>
+		<string>com.acme.pki.util.scep.profile</string>
+		<key>PayloadOrganization</key>
+		<string>ACME</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false />
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>01364b4b-20b1-422f-a8f6-94a605c57ad8</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
