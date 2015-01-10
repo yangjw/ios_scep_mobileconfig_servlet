@@ -44,7 +44,7 @@ public class SignConfig2 {
 		//
 		
 		MobileConfig mc = new MobileConfig();
-		String profile = mc.MobileConfig("IOSPKIGB020MQHA904083005940494.ent.wfb.bank.dev", "PKI", "108EBBF63850A325111D6EBCF2C3841A");
+		String profile = mc.MobileConfig("IOS-PKI-GB020MQHA904083005940494.ent.wfb.bank.dev", "PKI", "76D3469DF3FB00E4E989EA718F89C529");
 
 		String psswd = "Password1!";
 

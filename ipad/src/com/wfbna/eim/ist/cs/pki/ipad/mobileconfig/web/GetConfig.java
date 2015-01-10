@@ -64,12 +64,11 @@ public class GetConfig extends HttpServlet {
 		final String challenge = request.getParameter("challenge");
 		
 		//test server challenge:
-		
 		//Serial# GB020MQHA90
 		//ChipID# 4083005940494
-		//Challenge "108EBBF63850A325111D6EBCF2C3841A"
+		//Challenge "76D3469DF3FB00E4E989EA718F89C529"
 		
-		String xmlString = mc.MobileConfig("IOS" + OU + CommonName + ECID +".ent.wfb.bank.dev", OU, challenge);
+		String xmlString = mc.MobileConfig("IOS" + OU + CommonName + ECID +".corp.acme.local", OU, challenge);
 				
 		response.setContentType("application/mobileconfig");
 		
@@ -81,7 +80,7 @@ public class GetConfig extends HttpServlet {
 	     response.setCharacterEncoding("utf-8");
 	     response.setContentType("application/x-apple-aspen-config");
 	       
-	       response.addHeader("Content-Disposition","attachment; filename=WFBNAPKI.mobileconfig" );
+	       response.addHeader("Content-Disposition","attachment; filename=ACMEPKI.mobileconfig" );
 	       response.setContentLength( (int) xmlString.length() );
 	      
 	       
